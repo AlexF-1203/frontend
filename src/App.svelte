@@ -5,11 +5,12 @@
 	import CardList from "./Cards.svelte";
 	import Card from "./lib/components/CardProxy.svelte";
 
-	let showcase, basics, reverse, holos, cosmos, amazings, radiant, basicGallery, 
-			vee, veeUltra, veeAlt, veeMax, veeMaxAlt, veeStar, 
+	let showcase, basics, reverse, holos, cosmos, amazings, radiant, basicGallery,
+			vee, veeUltra, veeAlt, veeMax, veeMaxAlt, veeStar,
 			trainerHolo, rainbow, gold, veeGallery, shinyVault;
 
 	let query = "";
+  
 	let isLoading = true;
 
 	const getCards = async () => {
@@ -73,7 +74,7 @@
 		<section class="intro" id="⚓-intro">
 			<p>
 				A collection of <mark>advanced CSS</mark> styles to create
-				<mark>realistic-looking effects</mark> for the faces of Pokemon cards. 
+				<mark>realistic-looking effects</mark> for the faces of Pokemon cards.
 				The cards use <mark>3d transforms</mark>, <mark>filters</mark>, <mark>blend modes</mark>,
 				<mark>css gradients</mark> and interactions to provide a unique experience when taking a closer look!
 			</p>
@@ -105,8 +106,8 @@
 
 			<p class="small">
 				I'm using SvelteJS to handle interactivity and state; <strong>
-					assigning values to css custom properties </strong> (variables) which 
-					in-turn drive the effects and 3d transforms. 
+					assigning values to css custom properties </strong> (variables) which
+					in-turn drive the effects and 3d transforms.
 					<br>
 					<a href="https://github.com/simeydotme/pokemon-cards-css">Source code is in the repository</a>.
 			</p>
